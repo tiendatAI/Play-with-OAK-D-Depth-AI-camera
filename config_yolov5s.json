@@ -1,0 +1,32 @@
+{
+    "nn_config":
+    {
+        "output_format" : "detection",
+        "NN_family" : "YOLO",
+        "input_size": "416x416",
+        "NN_specific_metadata" :
+        {
+            "classes" : 4,
+            "coordinates" : 4,
+            "anchors" : [76,6, 23,26, 66,21, 156,11, 32,53, 296,9, 58,51, 343,20, 169,60],
+            "anchor_masks" :
+            {
+                "side52" : [0,1,2],
+                "side26" : [3,4,5],
+                "side13" : [6,7,8]
+            },
+            "iou_threshold" : 0.5,
+            "confidence_threshold" : 0.5
+        }
+    },
+    "mappings":
+    {
+        "labels":
+        [
+            "D00",
+            "D01",
+            "D02",
+            "D03"
+        ]
+    }
+}
