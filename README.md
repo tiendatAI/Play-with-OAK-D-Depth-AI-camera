@@ -1,5 +1,6 @@
 # RoadDamageDetector_YOLOv5_videoRealtime
 YOLOv5 model for Road Damage Detector using OAK-D DepthAI camera
+https://shop.luxonis.com/products/1098obcenclosure
 
 ## Training models
 
